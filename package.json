@@ -1,0 +1,11 @@
+{
+  "name": "teamdesk-devops-workflow-repair",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DevOps Foundations Modules 1 and 2 practical repair lab",
+  "scripts": {
+    "check:settings": "node scripts/check-settings.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=22" }
+}
