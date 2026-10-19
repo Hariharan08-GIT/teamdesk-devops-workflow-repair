@@ -1,5 +1,5 @@
 {
   "teamName": "TeamDesk",
-  "reviewRequired": false,
+  "reviewRequired": true,
   "runTestsBeforeMerge": false
 }
