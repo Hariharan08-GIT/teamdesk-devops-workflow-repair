@@ -50,11 +50,11 @@ git push -u origin fix/teamdesk-repair
 
 Open your fork's Actions tab. Forks do not inherit run history; this push contains your new commits and generates your own failed run. The configuration step should pass, but **Run unit tests** calls a nonexistent npm script. Capture that runner error. Compare `.github/workflows/ci.yml` with `package.json`, correct only the test-step command, commit, and push again. Both required steps must pass in a real Actions run.
 
-Create a PR from your repair branch to `main` **within your own fork**. Check the base repository before submitting; do not open a solution PR against the instructor repository. Include a brief repair summary and successful run URL. Leave the PR open; no external approval is required.
+Do not open a pull request against the instructor repository. No PR submission, approval, or merge is required. Your own fork's successful Actions run is the final workflow evidence.
 
 ## Evidence and rules
 
-Capture real output, not README text. Include conflict/status, resolved settings and successful checker/history, failed and passing unit tests, failed Actions log, successful Actions steps, and your own-fork PR. Put readable labelled screenshots and short explanations into one PDF, along with your name, fork URL, PR URL, and successful run URL.
+Capture real output, not README text. Submit one PDF with three sections labelled Task 1–3: (1) resolved settings, passing checker, and completed merge graph; (2) corrected function and all three tests passing; (3) corrected workflow command and actual successful Actions steps. Use one readable screenshot per task, with real source/output side by side where needed. No collage, written explanation, video, ZIP, or PR is required. Include your fork URL and successful run URL as text.
 
 Do not edit acceptance tests, checker, or package scripts; delete validation steps; skip tests; suppress errors; or replace checks with success echoes. Only `config/team.json`, `src/tasks.js`, and the workflow test command need repairs.
 
