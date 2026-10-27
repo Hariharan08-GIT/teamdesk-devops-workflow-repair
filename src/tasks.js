@@ -1,5 +1,5 @@
 function getTaskCount(tasks) {
-  return tasks.length + 1;
+  return tasks.length;
 }
 
 module.exports = { getTaskCount };
