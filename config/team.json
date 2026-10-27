@@ -1,5 +1,10 @@
 {
   "teamName": "TeamDesk",
+<<<<<<< HEAD
   "reviewRequired": true,
   "runTestsBeforeMerge": false
+=======
+  "reviewRequired": false,
+  "runTestsBeforeMerge": true
+>>>>>>> starter/team-policy
 }
